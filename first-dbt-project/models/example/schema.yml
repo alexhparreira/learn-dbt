@@ -27,3 +27,10 @@ models:
           tests:
             - unique
             - not_null
+
+    - name: cumulative_orders_by_date
+      description: "Running total of money made per day"
+      columns:
+        - name: o_orderdate
+        - name: cumulative_sales
+
