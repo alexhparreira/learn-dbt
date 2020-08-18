@@ -34,3 +34,5 @@ models:
         - name: o_orderdate
         - name: cumulative_sales
 
+    - name: dates
+
