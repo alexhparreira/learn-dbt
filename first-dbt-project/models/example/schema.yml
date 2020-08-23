@@ -35,4 +35,5 @@ models:
         - name: cumulative_sales
 
     - name: dates
+    - name: incremental_time
 
