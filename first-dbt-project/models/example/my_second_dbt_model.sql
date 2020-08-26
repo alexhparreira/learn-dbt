@@ -1,3 +1,2 @@
 select *
-from {{ ref('my_first_dbt_model') }}
-where id = 1
+from "SNOWFLAKE_SAMPLE_DATA"."TPCDS_SF10TCL"."DATE_DIM"
