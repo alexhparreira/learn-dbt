@@ -37,6 +37,6 @@ models:
       example:
           materialized: table
           vars:
-            my_first_variable: True
+            my_first_variable: 10
             my_second_variable: 2020
-            my_third_variable: 1
+            my_third_variable: 2
